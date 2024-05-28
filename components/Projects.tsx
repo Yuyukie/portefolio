@@ -11,9 +11,9 @@ const Projects = () => {
       <h2 className="heading">
         My <span className="text-yellow-400">Project</span>
       </h2>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[95%] mx-auto">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[90%] mx-auto">
         <article
-          className="border-2 border-gray-400 bg-yellow-400 hover:scale-105 transform transition-all duration-300 
+          className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 
                           hover:-rotate-6 cursor-pointer"
         >
           <div className="flex flex-col h-[150px] items-center justify-center m-4">
@@ -26,7 +26,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
-            <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+            <div className=" w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               Mon Vieux Grimoire
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
@@ -49,7 +49,7 @@ const Projects = () => {
             </p>
           </div>
         </article>
-        <article className="border-2 border-gray-400 bg-yellow-400 hover:scale-105 transform transition-all duration-300 cursor-pointer">
+        <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 cursor-pointer">
           <div className="flex flex-col h-[150px] items-center justify-center m-4">
             <Image
               src="/images/kasa.png"
@@ -60,7 +60,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
-            <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+            <div className=" w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               Mon Vieux Grimoire
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
@@ -84,7 +84,7 @@ const Projects = () => {
           </div>
         </article>
         <article
-          className="border-2 border-gray-400 bg-yellow-400 hover:scale-105 transform transition-all duration-300 
+          className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 
                           hover:rotate-6 cursor-pointer"
         >
           <div className="flex flex-col h-[150px] items-center justify-center m-4 ">
@@ -97,7 +97,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
-            <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+            <div className=" w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               Mon Vieux Grimoire
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">

@@ -14,10 +14,10 @@ const Services = () => {
       <p className="heading">
         My<span className="text-yellow-400">Services</span>
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
         <div>
           <div
-            className="bg-[#141c27] hover:scale-110 transform transition-all duration-300 
+            className="bg-gray-400 hover:scale-110 transform transition-all duration-300 
                           hover:-rotate-6 uppercase font-semibold text-center p-[2rem]"
           >
             <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
