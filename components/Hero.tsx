@@ -1,6 +1,5 @@
 import React from "react";
 import TextEffect from "./TextEffect";
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 
 const Hero = () => {
   return (

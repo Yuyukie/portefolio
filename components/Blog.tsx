@@ -21,7 +21,7 @@ const Blog = () => {
               Grafikart
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 "></div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold ">
+            <p className="text-xs md:text-sm text-wrap text-white ">
               For me, he is one of the most educational content creators on the
               web. Its content is regularly updated which allows us to stay
               abreast of technological developments while learning how to use
@@ -40,7 +40,7 @@ const Blog = () => {
               X Twitter React
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 "></div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold">
+            <p className="text-xs md:text-sm text-wrap text-white">
               This is my main technology for the frontend. Its functioning and
               structure fascinate me. it is important for me to stay informed
               about its evolution thanks to its reference social network
@@ -50,7 +50,7 @@ const Blog = () => {
         <div className="w-[100%] m-auto">
           <div className="w-[100%] relative h-[400px] bg-gray-400 rounded-3xl">
             <Link href="https://www.developpez.com/">
-              <Image src="/images/dvp.png" alt="" fill />
+              <Image src="/images/dvp.png" alt="" fill className="p-8" />
             </Link>
           </div>
           <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem] ">
@@ -58,7 +58,7 @@ const Blog = () => {
               Devellopez
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 "></div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold">
+            <p className="text-xs md:text-sm text-wrap text-white">
               One of the sites offering a vast quantity of information,
               articles, reviews and books concerning the world of the web and
               its derivatives. This allows you to discover new possibilities

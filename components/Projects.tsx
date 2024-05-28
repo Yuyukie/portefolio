@@ -27,24 +27,23 @@ const Projects = () => {
           </div>
           <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
             <div className=" w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
-              Mon Vieux Grimoire
+              Sophie-Bluel
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
               <div className="flex items-center space-x-3">
                 <q className="text-xs md:text-sm text-wrap text-white">
-                  Développez le back-end d un site de notation de livres en
-                  utilisant Node.js, Express, et MongoDB, en mettant en place un
-                  serveur sécurisé avec des fonctionnalités CRUD et d
-                  authentification.
+                  Creation of a dynamic web page with JavaScript. In this
+                  project, it is requested to create with HTML CSS AND JS a page
+                  that communicates with an API to retrieve the data it contains
+                  in order to display it to the user.
                 </q>
               </div>
             </div>
             <p className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
-                <li className="">NodeJS</li>
-                <li className="">Express</li>
-                <li className="">MongoDB</li>
-                <li className="">CRUD</li>
+                <li className="">HTML</li>
+                <li className="">CSS</li>
+                <li className="">JavaScript</li>
               </ul>
             </p>
           </div>
@@ -61,24 +60,24 @@ const Projects = () => {
           </div>
           <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
             <div className=" w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
-              Mon Vieux Grimoire
+              Kasa Immobilier
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
               <div className="flex items-center space-x-3">
-                <q className="text-xs md:text-sm text-wrap text-white">
-                  Développez le back-end d un site de notation de livres en
-                  utilisant Node.js, Express, et MongoDB, en mettant en place un
-                  serveur sécurisé avec des fonctionnalités CRUD et d
-                  authentification.
-                </q>
+                <p className="text-xs md:text-sm text-wrap text-white">
+                  Creation of a real estate rental web application with REACT.
+                  In this project, you are asked to create the entire frontend
+                  part of the site using REACT and REACT-ROUTER. You also have
+                  to manage all possible errors from one page to another
+                </p>
               </div>
             </div>
             <p className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
-                <li className="">NodeJS</li>
-                <li className="">Express</li>
-                <li className="">MongoDB</li>
-                <li className="">CRUD</li>
+                <li className="">React</li>
+                <li className="">React-Router</li>
+                <li className="">JavaScript</li>
+                <li className="">SCSS</li>
               </ul>
             </p>
           </div>
@@ -102,12 +101,13 @@ const Projects = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
               <div className="flex items-center space-x-3">
-                <q className="text-xs md:text-sm text-wrap text-white">
-                  Développez le back-end d un site de notation de livres en
-                  utilisant Node.js, Express, et MongoDB, en mettant en place un
-                  serveur sécurisé avec des fonctionnalités CRUD et d
-                  authentification.
-                </q>
+                <p className="text-xs md:text-sm text-wrap text-white">
+                  Creation of the backend of a book rating site. In this
+                  project, it is required to create the entire Backend part of
+                  the site using node.js express and MongoDB. You must create
+                  the server, the database and the entire CRUD part for managing
+                  books and ratings.
+                </p>
               </div>
             </div>
             <p className="mt-[1rem] text-white text-[18px] font font-semibold">
