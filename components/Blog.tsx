@@ -10,8 +10,8 @@ const Blog = () => {
         BL<span className="text-yellow-400">OG</span>
       </h2>
       <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto items-center ">
-        <div className="w-[100%] m-auto">
-          <div className="w-[100%] relative h-[400px]  bg-gray-400 rounded-3xl">
+        <div className="w-[80%] m-auto">
+          <div className="w-[100%] relative h-[250px]  bg-gray-400 rounded-3xl">
             <Link href="https://www.youtube.com/user/grafikarttv">
               <Image src="/images/grafikart.png" alt="" fill />
             </Link>
@@ -23,14 +23,14 @@ const Blog = () => {
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 "></div>
             <p className="text-xs md:text-sm text-wrap text-white ">
               For me, he is one of the most educational content creators on the
-              web. Its content is regularly updated which allows us to stay
+              web. His content is regularly updated which allows us to stay
               abreast of technological developments while learning how to use
               them.
             </p>
           </div>
         </div>
-        <div className="w-[100%] m-auto">
-          <div className="w-[100%] relative h-[400px] bg-gray-400 rounded-3xl">
+        <div className="w-[80%] m-auto">
+          <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
             <Link href="https://x.com/reactjs">
               <Image src="/images/react.png" alt="" fill className="p-8" />
             </Link>
@@ -47,8 +47,8 @@ const Blog = () => {
             </p>
           </div>
         </div>
-        <div className="w-[100%] m-auto">
-          <div className="w-[100%] relative h-[400px] bg-gray-400 rounded-3xl">
+        <div className="w-[80%] m-auto">
+          <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
             <Link href="https://www.developpez.com/">
               <Image src="/images/dvp.png" alt="" fill className="p-8" />
             </Link>

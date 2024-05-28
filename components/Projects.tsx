@@ -39,13 +39,13 @@ const Projects = () => {
                 </q>
               </div>
             </div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold">
+            <div className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
                 <li className="">HTML</li>
                 <li className="">CSS</li>
                 <li className="">JavaScript</li>
               </ul>
-            </p>
+            </div>
           </div>
         </article>
         <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 cursor-pointer">
@@ -72,14 +72,14 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold">
+            <div className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
                 <li className="">React</li>
                 <li className="">React-Router</li>
                 <li className="">JavaScript</li>
                 <li className="">SCSS</li>
               </ul>
-            </p>
+            </div>
           </div>
         </article>
         <article
@@ -110,14 +110,14 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <p className="mt-[1rem] text-white text-[18px] font font-semibold">
+            <div className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
                 <li className="">NodeJS</li>
                 <li className="">Express</li>
                 <li className="">MongoDB</li>
                 <li className="">CRUD</li>
               </ul>
-            </p>
+            </div>
           </div>
         </article>
       </div>
