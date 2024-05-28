@@ -8,13 +8,13 @@ const Skills = () => {
       <h2 className="heading">
         Education & <span className="text-yellow-400">Skills</span>
       </h2>
-      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
+      <div className="w-[90%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
-          <SkillsItem title="OpenClassRooms's Formation" year="2024" />
+          <SkillsItem title="OCR's Formation" year="2024" />
           <SkillsLanguage skill1="JS" skill2="REACT" skill3="NODE.JS" />
         </div>
         <div>
-          <SkillsItem title="Fullstack Developper" year="2024" />
+          <SkillsItem title="Fullstack Dev" year="2024" />
           <SkillsLanguage
             skill1="TAILWIND"
             skill2="NEXT.JS"
