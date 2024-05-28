@@ -14,7 +14,7 @@ const SkillsItem = ({ title, year }: Props) => {
       <h2 className="mt-[2rem] uppercase font-semibold mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white">
         {title}
       </h2>
-      <p className="text-[] font-norma; w-[80%] text-[17px] ">
+      <p className="text-[] font-norma; w-[80%] text-[17px] text-slate-400  ">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, quos!
         Magnam architecto rerum vero alias nesciunt fugiat doloremque! Nihil
         totam quia quibusdam veritatis deleniti obcaecati perferendis laudantium

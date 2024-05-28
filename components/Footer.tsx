@@ -9,11 +9,11 @@ import ContactForm from "./ContactForm";
 const Footer = () => {
   return (
     <div className="pt-[8rem] pb-[4rem] bg-[#02050a]">
-      <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1  w-[80%] mx-auto gap-[3rem] sm:grid-cols-2">
-        <div className="space-y-8">
+      <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 w-[80%] mx-auto gap-[3rem] xl:grid-cols-2">
+        <div className=" flex justify-center gap-4 xl:flex-col xl:gap-10">
           <div className="flex items-center space-x-6">
             <div className=" md:w-[6rem] md:h-[6.5rem] w-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
-              <MapIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black" />
+              <MapIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] m-0 text-black" />
             </div>
             <div>
               <h2 className="text-[25px] mb-[0.2rem] font-semibold text-white">
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-6">
             <div className=" md:w-[6rem] md:h-[6.5rem] w-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
-              <DevicePhoneMobileIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black" />
+              <DevicePhoneMobileIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] m-0 text-black" />
             </div>
             <div>
               <h2 className="text-[25px] mb-[0.2rem] font-semibold text-white">

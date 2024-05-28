@@ -11,28 +11,31 @@ const Projects = () => {
         My <span className="text-yellow-400">Project</span>
       </h2>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] mb-2">
-        <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[400px] md:h-[300px]">
+        <div className="bg-white transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[300px]">
           <Image
-            src="/images/Sophie-Bluel.webp"
+            src="/images/sophie.png"
             alt="Projet Sophie Bluel"
             fill
             className="object-contain"
+            sizes="100vw"
           />
         </div>
-        <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[400px] md:h-[400px]">
+        <div className="bg-white transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[300px]">
           <Image
-            src="/images/Kasa.webp"
+            src="/images/kasa.png"
             alt="Projet Kasa"
             fill
             className="object-contain"
+            sizes="100vw"
           />
         </div>
-        <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[400px] md:h-[400px]">
+        <div className="bg-white transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[300px]">
           <Image
-            src="/images/Vieux-grimoire.webp"
+            src="/images/grimoire.png"
             alt="Projet mon Vieux-grimoire"
             fill
             className="object-contain"
+            sizes="100vw"
           />
         </div>
       </div>
