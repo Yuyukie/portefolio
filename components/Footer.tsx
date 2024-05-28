@@ -9,7 +9,7 @@ import ContactForm from "./ContactForm";
 const Footer = () => {
   return (
     <div className="pt-[8rem] pb-[4rem] bg-[#02050a]">
-      <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-2  w-[80%] mx-auto gap-[3rem]">
+      <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1  w-[80%] mx-auto gap-[3rem] sm:grid-cols-2">
         <div className="space-y-8">
           <div className="flex items-center space-x-6">
             <div className=" md:w-[6rem] md:h-[6.5rem] w-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]">

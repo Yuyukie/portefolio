@@ -15,24 +15,24 @@ const Projects = () => {
           <Image
             src="/images/Sophie-Bluel.webp"
             alt="Projet Sophie Bluel"
-            layout="fill"
-            className="object-containt"
+            fill
+            className="object-contain"
           />
         </div>
         <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[400px] md:h-[400px]">
           <Image
             src="/images/Kasa.webp"
             alt="Projet Kasa"
-            layout="fill"
-            className="object-containt"
+            fill
+            className="object-contain"
           />
         </div>
         <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-100 relative w-[100%] h-[400px] md:h-[400px]">
           <Image
             src="/images/Vieux-grimoire.webp"
             alt="Projet mon Vieux-grimoire"
-            layout="fill"
-            className="object-containt"
+            fill
+            className="object-contain"
           />
         </div>
       </div>
