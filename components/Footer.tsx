@@ -4,6 +4,7 @@ import {
   MapIcon,
 } from "@heroicons/react/20/solid";
 import React from "react";
+import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
@@ -47,6 +48,9 @@ const Footer = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div>
+          <ContactForm />
         </div>
       </div>
       <div className="w-[80%] mt-[2rem] mx-auto items-center justify-between">
