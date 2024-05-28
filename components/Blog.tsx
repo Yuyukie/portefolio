@@ -10,7 +10,7 @@ const Blog = () => {
         BL<span className="text-yellow-400">OG</span>
       </h2>
       <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto items-center ">
-        <div className="w-[80%] m-auto">
+        <div className="w-[90%] m-auto">
           <div className="w-[100%] relative h-[250px]  bg-gray-400 rounded-3xl">
             <Link href="https://www.youtube.com/user/grafikarttv">
               <Image src="/images/grafikart.png" alt="" fill />
@@ -29,7 +29,7 @@ const Blog = () => {
             </p>
           </div>
         </div>
-        <div className="w-[80%] m-auto">
+        <div className="w-[90%] m-auto">
           <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
             <Link href="https://x.com/reactjs">
               <Image src="/images/react.png" alt="" fill className="p-8" />
@@ -47,7 +47,7 @@ const Blog = () => {
             </p>
           </div>
         </div>
-        <div className="w-[80%] m-auto">
+        <div className="w-[90%] m-auto">
           <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
             <Link href="https://www.developpez.com/">
               <Image src="/images/dvp.png" alt="" fill className="p-8" />

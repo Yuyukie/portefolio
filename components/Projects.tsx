@@ -31,19 +31,19 @@ const Projects = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
               <div className="flex items-center space-x-3">
-                <q className="text-xs md:text-sm text-wrap text-white">
+                <p className="text-xs md:text-sm text-wrap text-white">
                   Creation of a dynamic web page with JavaScript. In this
                   project, it is requested to create with HTML CSS AND JS a page
                   that communicates with an API to retrieve the data it contains
                   in order to display it to the user.
-                </q>
+                </p>
               </div>
             </div>
             <div className="mt-[1rem] text-white text-[18px] font font-semibold">
               <ul className="flex flex-wrap justify-center items-center gap-2">
                 <li className="">HTML</li>
                 <li className="">CSS</li>
-                <li className="">JavaScript</li>
+                <li className="">JS</li>
               </ul>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Projects = () => {
               <ul className="flex flex-wrap justify-center items-center gap-2">
                 <li className="">React</li>
                 <li className="">React-Router</li>
-                <li className="">JavaScript</li>
+                <li className="">JS</li>
                 <li className="">SCSS</li>
               </ul>
             </div>
