@@ -16,19 +16,19 @@ const Grimoire = () => {
   const toggleShowAll = () => setShowAll(!showAll);
 
   const images = [
-    "/images/obj.png",
-    "/images/scenario-1.png",
-    "/images/scenario-2.png",
-    "/images/spe-fct.png",
-    "/images/spe-fct-2.png",
-    "/images/spe-fct-3.png",
-    "/images/spe-API.png",
-    "/images/spe-API-2.png",
-    "/images/spe-API-3.png",
-    "/images/grimoire-1.png",
-    "/images/grimoire-2.png",
-    "/images/grimoire-3.png",
-    "/images/grimoire-4.png",
+    "/images/projects/grimoire/obj.png",
+    "/images/projects/grimoire/scenario-1.png",
+    "/images/projects/grimoire/scenario-2.png",
+    "/images/projects/grimoire/spe-fct.png",
+    "/images/projects/grimoire/spe-fct-2.png",
+    "/images/projects/grimoire/spe-fct-3.png",
+    "/images/projects/grimoire/spe-API.png",
+    "/images/projects/grimoire/spe-API-2.png",
+    "/images/projects/grimoire/spe-API-3.png",
+    "/images/projects/grimoire/grimoire-1.png",
+    "/images/projects/grimoire/grimoire-2.png",
+    "/images/projects/grimoire/grimoire-3.png",
+    "/images/projects/grimoire/grimoire-4.png",
   ];
 
   const displayedImages = showAll ? images : images.slice(0, 3);
@@ -55,7 +55,7 @@ const Grimoire = () => {
             chain of bookstores that he wants open a book referencing and rating
             site: Mon Vieux Grimoire.
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem] mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem]  gap-[3rem] mx-auto">
             {displayedImages.map((src, index) => (
               <article
                 key={index}
@@ -65,7 +65,19 @@ const Grimoire = () => {
               </article>
             ))}
           </div>
-          <div className="flex justify-center items-center gap-4">
+
+          <div className=" mb-4 text-white font-bold">
+            {`${displayedImages.length}/${images.length}`}
+          </div>
+          <div>
+            <button
+              onClick={toggleShowAll}
+              className=" mb-4 px-4 py-2 bg-yellow-400 text-white font-bold rounded"
+            >
+              {showAll ? "Fermer tous" : "Afficher plus"}
+            </button>
+          </div>
+          <div className="flex justify-center items-center gap-4 mb-4">
             <div className=" w-[6rem] h-[6rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
               <Link
                 href="https://github.com/Yuyukie/Projet6"
@@ -86,17 +98,6 @@ const Grimoire = () => {
                 GitHub
               </h2>
             </div>
-          </div>
-          <div className="mt-4 mb-4 text-white font-bold">
-            {`${displayedImages.length}/${images.length}`}
-          </div>
-          <div>
-            <button
-              onClick={toggleShowAll}
-              className=" mb-4 px-4 py-2 bg-yellow-400 text-white font-bold rounded"
-            >
-              {showAll ? "Fermer tous" : "Afficher plus"}
-            </button>
           </div>
         </div>
         <div>
