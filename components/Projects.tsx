@@ -23,7 +23,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Sophie-Bluel
               </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Kasa Immobilier
               </div>
@@ -96,7 +96,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Mon Vieux Grimoire
               </div>
