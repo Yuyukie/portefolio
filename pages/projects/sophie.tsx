@@ -66,7 +66,7 @@ const Grimoire = () => {
           <div className="flex justify-center items-center gap-4 mb-4">
             <div className=" w-[6rem] h-[6rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
               <Link
-                href="https://github.com/Yuyukie/Projet5"
+                href="https://github.com/Yuyukie/Projet3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
