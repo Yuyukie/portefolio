@@ -40,13 +40,7 @@ const Grimoire = () => {
             Presen
             <span className="text-yellow-400">tation</span>
           </h1>
-          <p className="mt-[2rem] text-[18px] text-slate-400">
-            I am a freelance front-end developer for Kasa, a peer-to-peer
-            apartment rental company. With more than 500 advertisements posted
-            every day, Kasa is one of the leaders in private apartment rental in
-            France. The perfect opportunity for me to add a great reference to
-            my freelance portfolio!
-          </p>
+          <p className="mt-[2rem] text-[18px] text-slate-400"></p>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem]  gap-[3rem] mx-auto">
             {displayedImages.map((src, index) => (
               <article
