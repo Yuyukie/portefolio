@@ -15,22 +15,22 @@ const Nav = ({ openNav }: Props) => {
           <span className="text-yellow-300">DEV</span>
         </h2>
         <div className="nav-link">
-          <a href="#home">Home</a>
+          <Link href="/#home">Home</Link>
         </div>
         <div className="nav-link">
-          <a href="#services">Services</a>
+          <Link href="/#services">Services</Link>
         </div>
         <div className="nav-link">
-          <a href="#about">About </a>
+          <Link href="/#about">About</Link>
         </div>
         <div className="nav-link">
-          <a href="#projects">Projects </a>
+          <Link href="/#projects">Projects</Link>
         </div>
         <div className="nav-link">
-          <a href="#blog">Blog </a>
+          <Link href="/#blog">Blog</Link>
         </div>
         <div className="nav-link">
-          <a href="#contact">Contact </a>
+          <Link href="/#contact">Contact</Link>
         </div>
         <div onClick={openNav}>
           <Bars3Icon className=" w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />

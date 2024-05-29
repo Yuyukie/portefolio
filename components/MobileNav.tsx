@@ -1,4 +1,5 @@
 import { XMarkIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 import React from "react";
 
 interface Props {
@@ -14,35 +15,23 @@ const MobileNav = ({ nav, closeNav }: Props) => {
       className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[10000] bg-[#09101a]`}
     >
       <div className="w-[100vw] h-[100vh] flex flex-col md:hidden items-center justify-center">
-        <div className="nav-link-mobile ">
-          <a href="#home" onClick={closeNav}>
-            Home
-          </a>
+        <div className="nav-link">
+          <Link href="/#home">Home</Link>
         </div>
-        <div className="nav-link-mobile ">
-          <a href="#services" onClick={closeNav}>
-            Services
-          </a>
+        <div className="nav-link">
+          <Link href="/#services">Services</Link>
         </div>
-        <div className="nav-link-mobile ">
-          <a href="#about" onClick={closeNav}>
-            About
-          </a>
+        <div className="nav-link">
+          <Link href="/#about">About</Link>
         </div>
-        <div className="nav-link-mobile ">
-          <a href="#projects" onClick={closeNav}>
-            Projects
-          </a>
+        <div className="nav-link">
+          <Link href="/#projects">Projects</Link>
         </div>
-        <div className="nav-link-mobile ">
-          <a href="#blog" onClick={closeNav}>
-            Blog
-          </a>
+        <div className="nav-link">
+          <Link href="/#blog">Blog</Link>
         </div>
-        <div className="nav-link-mobile ">
-          <a href="#contact" onClick={closeNav}>
-            Contact
-          </a>
+        <div className="nav-link">
+          <Link href="/#contact">Contact</Link>
         </div>
       </div>
       <div onClick={closeNav}>
