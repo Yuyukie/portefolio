@@ -40,8 +40,8 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
           <Image
             src={src}
             alt={alt}
-            width={950}
-            height={750}
+            width={1400}
+            height={0}
             className="object-fill"
           />
         </div>
