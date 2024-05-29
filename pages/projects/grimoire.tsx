@@ -38,42 +38,62 @@ const Grimoire = () => {
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
+                <ImageWithModal src="/images/scenario-1.png" alt="" />
               </div>
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
-              </div>
-            </article>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
-            <article className="border-2 border-gray-400 bg-gray-400">
-              <ImageWithModal src="/images/" alt="" />
-            </article>
-            <article className="border-2 border-gray-400 bg-gray-400">
-              <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
-              </div>
-            </article>
-            <article className="border-2 border-gray-400 bg-gray-400">
-              <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
+                <ImageWithModal src="/images/scenario-2.png" alt="" />
               </div>
             </article>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
             <article className="border-2 border-gray-400 bg-gray-400">
-              <ImageWithModal src="/images/" alt="" />
+              <ImageWithModal src="/images/spe-fct.png" alt="" />
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
+                <ImageWithModal src="/images/spe-fct-2.png  " alt="" />
               </div>
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
-                <ImageWithModal src="/images/" alt="" />
+                <ImageWithModal src="/images/spe-fct-3.png" alt="" />
+              </div>
+            </article>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <ImageWithModal src="/images/spe-API.png" alt="" />
+            </article>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <div className="object-cover">
+                <ImageWithModal src="/images/spe-API-2.png" alt="" />
+              </div>
+            </article>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <div className="object-cover">
+                <ImageWithModal src="/images/spe-API-3.png" alt="" />
+              </div>
+            </article>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <ImageWithModal src="/images/grimoire-1.png" alt="" />
+            </article>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <div className="object-cover">
+                <ImageWithModal src="/images/grimoire-2.png" alt="" />
+              </div>
+            </article>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <div className="object-cover">
+                <ImageWithModal src="/images/grimoire-3.png" alt="" />
+              </div>
+            </article>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <div className="object-cover">
+                <ImageWithModal src="/images/grimoire-4.png" alt="" />
               </div>
             </article>
           </div>
