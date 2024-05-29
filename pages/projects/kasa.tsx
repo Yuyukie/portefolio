@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import React, { useState } from "react";
 
-const Grimoire = () => {
+const Kasa = () => {
   const [nav, setnav] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
@@ -101,4 +101,4 @@ const Grimoire = () => {
   );
 };
 
-export default Grimoire;
+export default Kasa;

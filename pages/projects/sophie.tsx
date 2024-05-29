@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import React, { useState } from "react";
 
-const Grimoire = () => {
+const Sophie = () => {
   const [nav, setnav] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
@@ -94,4 +94,4 @@ const Grimoire = () => {
   );
 };
 
-export default Grimoire;
+export default Sophie;
