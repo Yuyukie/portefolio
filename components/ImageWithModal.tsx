@@ -19,7 +19,7 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
 
   return (
     <div>
-      <div className="flex items-center justify-center m-4 h-[600px]">
+      <div className="flex items-center justify-center m-4 h-[400px]">
         <Image
           src={src}
           alt={alt}
@@ -32,13 +32,13 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
 
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 w-full h-full">
-          <div className="relative w-[80%] h-[80%] max-w-[80%] max-h-[80%] mt-[12rem] mb-[80px]">
+          <div className="relative w-[80%] h-[80%] max-w-[80%] max-h-[80%] mt-[12rem] mb-[80px] flex justify-center">
             <Image
               src={src}
               alt={alt}
-              layout="fill"
-              objectFit="contain"
-              className="object-contain"
+              width={750}
+              height={750}
+              className="object-fill"
             />
           </div>
           <button
