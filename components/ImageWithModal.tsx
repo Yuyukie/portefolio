@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import Image from "next/image";
 
 interface ImgModalProps {
@@ -17,8 +18,8 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
     setIsModalOpen(false);
   };
 
-  return (
-    <div>
+  if (!isModalOpen) {
+    return (
       <div className="flex items-center justify-center m-4 h-[400px]">
         <Image
           src={src}
@@ -29,27 +30,30 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
           onClick={openModal}
         />
       </div>
+    );
+  }
 
-      {isModalOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 w-full h-full">
-          <div className="relative w-[80%] h-[80%] max-w-[80%] max-h-[80%] mt-[12rem] mb-[80px] flex justify-center">
-            <Image
-              src={src}
-              alt={alt}
-              width={950}
-              height={750}
-              className="object-fill"
-            />
-          </div>
-          <button
-            className="absolute top-[150px] right-[150px] text-yellow-400 text-[100px]"
-            onClick={closeModal}
-          >
-            &times;
-          </button>
+  return ReactDOM.createPortal(
+    <>
+      <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 w-full h-full">
+        <div className="relative w-[80%] h-[80%] max-w-[80%] max-h-[80%] mt-[18rem] mb-[80px] flex justify-center">
+          <Image
+            src={src}
+            alt={alt}
+            width={950}
+            height={750}
+            className="object-fill"
+          />
         </div>
-      )}
-    </div>
+        <button
+          className="absolute top-[150px] right-[150px] text-yellow-400 text-[100px]"
+          onClick={closeModal}
+        >
+          &times;
+        </button>
+      </div>
+    </>,
+    document.body
   );
 };
 
