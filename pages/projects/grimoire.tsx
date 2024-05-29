@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
+import ImageWithModal from "@/components/ImageWithModal";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
-import ImageWithModal from "@/components/ImgModal";
 
 import React, { useState } from "react";
 
@@ -30,15 +30,21 @@ const MonVieuxGrimoire = () => {
               repudiandae accusamus. Nulla, rem.
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem] w-[100%] mx-auto">
-            <article>
-              <ImageWithModal src="/images/obj.png" alt="Sophie Bluel" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
+            <article className="border-2 border-gray-400 bg-gray-400 w-[500px]">
+              <div className="object-cover">
+                <ImageWithModal src="/images/obj.png" alt="Sophie Bluel" />
+              </div>
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
-              <ImageWithModal src="/images/sophie.png" alt="Sophie Bluel" />
+              <div className="object-cover">
+                <ImageWithModal src="/images/spe-tech.png" alt="Sophie Bluel" />
+              </div>
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
-              <ImageWithModal src="/images/sophie.png" alt="Sophie Bluel" />
+              <div className="object-cover">
+                <ImageWithModal src="/images/spe-tech." alt="Sophie Bluel" />
+              </div>
             </article>
           </div>
         </div>
@@ -49,5 +55,4 @@ const MonVieuxGrimoire = () => {
     </div>
   );
 };
-
 export default MonVieuxGrimoire;
