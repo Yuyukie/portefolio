@@ -31,10 +31,8 @@ const MonVieuxGrimoire = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] mb-[4rem] gap-[3rem]  mx-auto">
-            <article className="border-2 border-gray-400 bg-gray-400 w-[500px]">
-              <div className="object-cover">
-                <ImageWithModal src="/images/obj.png" alt="Sophie Bluel" />
-              </div>
+            <article className="border-2 border-gray-400 bg-gray-400">
+              <ImageWithModal src="/images/obj.png" alt="Sophie Bluel" />
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
@@ -43,7 +41,7 @@ const MonVieuxGrimoire = () => {
             </article>
             <article className="border-2 border-gray-400 bg-gray-400">
               <div className="object-cover">
-                <ImageWithModal src="/images/spe-tech." alt="Sophie Bluel" />
+                <ImageWithModal src="/images/scenario.png" alt="" />
               </div>
             </article>
           </div>
