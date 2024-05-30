@@ -16,15 +16,15 @@ const Kasa = () => {
   const toggleShowAll = () => setShowAll(!showAll);
 
   const images = [
-    "/images/projects/kasa/obj.png",
-    "/images/projects/kasa/scenario-1.png",
-    "/images/projects/kasa/scenario-2.png",
-    "/images/projects/kasa/ctt-tech.png",
-    "/images/projects/kasa/kasa-1.png",
-    "/images/projects/kasa/kasa-2.png",
-    "/images/projects/kasa/kasa-3.png",
-    "/images/projects/kasa/kasa-4.png",
-    "/images/projects/kasa/kasa-5.png",
+    "/images/projects/kasa/obj.webp",
+    "/images/projects/kasa/scenario-1.webp",
+    "/images/projects/kasa/scenario-2.webp",
+    "/images/projects/kasa/ctt-tech.webp",
+    "/images/projects/kasa/kasa-1.webp",
+    "/images/projects/kasa/kasa-2.webp",
+    "/images/projects/kasa/kasa-3.webp",
+    "/images/projects/kasa/kasa-4.webp",
+    "/images/projects/kasa/kasa-5.webp",
   ];
 
   const displayedImages = showAll ? images : images.slice(0, 3);

@@ -17,14 +17,14 @@ const Sophie = () => {
   const toggleShowAll = () => setShowAll(!showAll);
 
   const images = [
-    "/images/projects/sophie/obj.png",
-    "/images/projects/sophie/scenario-1.png",
-    "/images/projects/sophie/scenario-2.png",
-    "/images/projects/sophie/kanban.png",
-    "/images/projects/sophie/sophie-1.png",
-    "/images/projects/sophie/sophie-2.png",
-    "/images/projects/sophie/sophie-3.png",
-    "/images/projects/sophie/sophie-4.png",
+    "/images/projects/sophie/obj.webp",
+    "/images/projects/sophie/scenario-1.webp",
+    "/images/projects/sophie/scenario-2.webp",
+    "/images/projects/sophie/kanban.webp",
+    "/images/projects/sophie/sophie-1.webp",
+    "/images/projects/sophie/sophie-2.webp",
+    "/images/projects/sophie/sophie-3.webp",
+    "/images/projects/sophie/sophie-4.webp",
   ];
 
   const displayedImages = showAll ? images : images.slice(0, 3);

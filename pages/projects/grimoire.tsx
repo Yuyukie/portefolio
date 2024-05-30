@@ -16,19 +16,19 @@ const Grimoire = () => {
   const toggleShowAll = () => setShowAll(!showAll);
 
   const images = [
-    "/images/projects/grimoire/obj.png",
-    "/images/projects/grimoire/scenario-1.png",
-    "/images/projects/grimoire/scenario-2.png",
-    "/images/projects/grimoire/spe-fct.png",
-    "/images/projects/grimoire/spe-fct-2.png",
-    "/images/projects/grimoire/spe-fct-3.png",
-    "/images/projects/grimoire/spe-API.png",
-    "/images/projects/grimoire/spe-API-2.png",
-    "/images/projects/grimoire/spe-API-3.png",
-    "/images/projects/grimoire/grimoire-1.png",
-    "/images/projects/grimoire/grimoire-2.png",
-    "/images/projects/grimoire/grimoire-3.png",
-    "/images/projects/grimoire/grimoire-4.png",
+    "/images/projects/grimoire/obj.webp",
+    "/images/projects/grimoire/scenario-1.webp",
+    "/images/projects/grimoire/scenario-2.webp",
+    "/images/projects/grimoire/spe-fct.webp",
+    "/images/projects/grimoire/spe-fct-2.webp",
+    "/images/projects/grimoire/spe-fct-3.webp",
+    "/images/projects/grimoire/spe-API.webp",
+    "/images/projects/grimoire/spe-API-2.webp",
+    "/images/projects/grimoire/spe-API-3.webp",
+    "/images/projects/grimoire/grimoire-1.webp",
+    "/images/projects/grimoire/grimoire-2.webp",
+    "/images/projects/grimoire/grimoire-3.webp",
+    "/images/projects/grimoire/grimoire-4.webp",
   ];
 
   const displayedImages = showAll ? images : images.slice(0, 3);
