@@ -16,7 +16,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/images/grafikart.webp" alt="" fill />
+              <Image src="/images/grafikart.webp" alt="" fill className="p-4" />
             </Link>
           </div>
           <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">
@@ -44,7 +44,7 @@ const Blog = () => {
                 src="/images/react.webp"
                 alt=""
                 fill
-                className="object-containt p-8"
+                className="object-cover p-8"
               />
             </Link>
           </div>
