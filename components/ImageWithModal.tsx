@@ -37,7 +37,7 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
     <>
       <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 w-full h-full">
         <div className="relative w-[80%] h-[50%] sm:h-[60%] md:h-[70%] md:w-[70%] xl:h-[80%] xl:w-[60%] 2xl:h-[80%] 2xl:w-[50%] mt-[6rem] flex justify-center">
-          <Image src={src} alt={alt} fill className="" />
+          <Image src={src} alt={alt} fill className="object-contain" />
         </div>
         <button
           className="absolute right-2 top-[100px] text-yellow-400 text-[100px]"

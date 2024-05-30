@@ -44,7 +44,7 @@ const Blog = () => {
                 src="/images/react.webp"
                 alt=""
                 fill
-                className="object-cover p-8"
+                className=" object-contain p-8"
               />
             </Link>
           </div>
