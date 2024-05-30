@@ -9,7 +9,7 @@ interface Props {
 const SkillsItem = ({ title, year, description }: Props) => {
   return (
     <div className=" flex flex-col items-center">
-      <div className="flex gap-2 items-center justify-center pb-4">
+      <div className="flex gap-8 items-center justify-center pb-4">
         <span className=" flex items-center h-[50px] px-[2rem] text-[#55e6a5] font-bold text-[18px] border-[2px] border-[#55e6a5] ">
           {year}
         </span>
