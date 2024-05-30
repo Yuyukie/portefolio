@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className=" bg-[url('/images/banner.jpg')] mt-[12vh] bg-cover bg-center"
+      className=" bg-[url('/images/banner.webp')] mt-[12vh] bg-cover bg-center"
     >
       <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className=" flex items-center justify-center rounded-full m-auto">
           <Image
-            src="/images/avatar.png"
+            src="/images/avatar.webp"
             alt=""
             width={250}
             height={250}

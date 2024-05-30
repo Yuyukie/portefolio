@@ -39,7 +39,7 @@ const Grimoire = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
       </div>
-      <div className="bg-[url('/images/banner.jpg')] mt-[12vh] bg-cover bg-center">
+      <div className="bg-[url('/images/banner.webp')] mt-[12vh] bg-cover bg-center">
         <div className="w-[80%] grid-cols-1 mx-auto grid gap-[1rem] h-[100%] text-center">
           <h1 className="text-[40px] md:text-[40px] text-white font-bold mt-4">
             Presen

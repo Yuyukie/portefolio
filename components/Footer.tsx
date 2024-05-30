@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[80%] mt-[2rem] mx-auto items-center justify-between">
-        <div className="text-[16px] mb-[2rem] text-center md:mb-0 text-white opacity-20">
+        <div className="text-[16px] mb-[2rem] text-center md:mb-0 text-white">
           Mazars Benjamin 2024 . All Right Reserved
         </div>
       </div>

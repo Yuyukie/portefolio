@@ -52,7 +52,7 @@ const Projects = () => {
           <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
-                src="/images/kasa.png"
+                src="/images/kasa.webp"
                 alt="Kasa Immobilier"
                 width={500}
                 height={375}
@@ -89,7 +89,7 @@ const Projects = () => {
           <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
-                src="/images/grimoire.png"
+                src="/images/grimoire.webp"
                 alt="Mon Vieux Grimoire"
                 width={500}
                 height={375}

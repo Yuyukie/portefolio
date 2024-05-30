@@ -1,4 +1,3 @@
-import { UserCircleIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +16,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/images/grafikart.png" alt="" fill />
+              <Image src="/images/grafikart.webp" alt="" fill />
             </Link>
           </div>
           <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">
@@ -42,7 +41,7 @@ const Blog = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/react.png"
+                src="/images/react.webp"
                 alt=""
                 fill
                 className="object-containt p-8"
@@ -69,7 +68,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/images/dvp.png" alt="" fill className="p-8" />
+              <Image src="/images/dvp.webp" alt="" fill className="p-8" />
             </Link>
           </div>
           <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">

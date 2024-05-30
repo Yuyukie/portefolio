@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import React, { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
 const Sophie = () => {
   const [nav, setnav] = useState(false);
@@ -34,7 +35,7 @@ const Sophie = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
       </div>
-      <div className="bg-[url('/images/banner.jpg')] mt-[12vh] bg-cover bg-center">
+      <div className="bg-[url('/images/banner.webp')] mt-[12vh] bg-cover bg-center">
         <div className="w-[80%] grid-cols-1 mx-auto grid gap-[1rem] h-[100%] text-center">
           <h1 className="text-[40px] md:text-[40px] text-white font-bold mt-4">
             Presen
@@ -70,13 +71,9 @@ const Sophie = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
-                  src="/images/giticon.png"
-                  alt="123"
-                  width={50}
-                  height={50}
-                  className="md:w-[80px] md:h-[80px]"
-                />
+                <div>
+                  <FaGithub className=" size-[80px]" />
+                </div>
               </Link>
             </div>
             <div>
