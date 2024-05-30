@@ -31,8 +31,8 @@ const About = () => {
               Feet on the ground but head in the clouds. This is my vision of
               the world and life today. Following a forced retraining, I opted
               for a world that has fascinated me since my earliest childhood.
-              The digital world allows you to break limits and achieve great
-              things with little means.
+              The digital world which allows you to break boundaries and
+              accomplish great things with few resources.
             </p>
           </div>
           <div className="flex justify-center gap-4 w-[100%]">
