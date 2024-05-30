@@ -36,17 +36,11 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
   return ReactDOM.createPortal(
     <>
       <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 w-full h-full">
-        <div className="relative w-[80%] h-[80%] max-w-[80%] max-h-[80%] mt-[18rem] mb-[80px] flex justify-center">
-          <Image
-            src={src}
-            alt={alt}
-            width={1400}
-            height={0}
-            className="object-fill"
-          />
+        <div className="relative w-[80%] h-[50%] sm:h-[60%] md:h-[70%] md:w-[70%] xl:h-[80%] xl:w-[60%] 2xl:h-[80%] 2xl:w-[50%] mt-[6rem] flex justify-center">
+          <Image src={src} alt={alt} fill className="" />
         </div>
         <button
-          className="absolute top-[150px] right-[150px] text-yellow-400 text-[100px]"
+          className="absolute right-2 top-[60px] text-yellow-400 text-[100px]"
           onClick={closeModal}
         >
           &times;

@@ -1,5 +1,6 @@
 import React from "react";
 import TextEffect from "./TextEffect";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -17,14 +18,21 @@ const Hero = () => {
             <TextEffect />
           </div>
           <p className="mt-[2rem] text=[18px] text-slate-400">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            fugiat unde deleniti deserunt quos quae corporis nostrum, voluptatem
-            fuga eum ipsum earum autem, quaerat magnam perspiciatis repudiandae
-            accusamus. Nulla, rem.
+            Passionate, curious, rigorous, meticulous and determined are the
+            words that best define me. Developing is a real pleasure, which
+            makes this work a pleasure itself.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 flex items-center sm:space-x-6"></div>
         </div>
-        <div className="w-[300px] h-[300px] bg-[#55e6a5] relative mb-2 lg:flex items-center lg:justify-center rounded-full m-auto"></div>
+        <div className=" flex items-center justify-center rounded-full m-auto">
+          <Image
+            src="/images/avatar.png"
+            alt=""
+            width={250}
+            height={250}
+            className="  rounded-full"
+          />
+        </div>
       </div>
     </div>
   );

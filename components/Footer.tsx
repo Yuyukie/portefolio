@@ -16,7 +16,7 @@ const Footer = () => {
               href="https://www.google.com/maps/search/?api=1&query=31+rue+du+barry%2C+12360+Camares"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-[6rem] h-[6.5rem] flex items-center justify-center rounded-full bg-[#55e6a5]"
+              className="w-[6rem] h-[6rem] flex items-center justify-center rounded-full bg-[#55e6a5]"
             >
               <MapIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] m-0 text-black" />
             </a>
@@ -40,7 +40,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center space-x-6 w-[100%] col-span-2 md:col-span-1">
+          <div className="flex items-center space-x-6 w-[100%] col-span-2 xl:col-span-1">
             <div className=" h-[6rem] w-[6rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
               <EnvelopeIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[5rem] text-black" />
             </div>

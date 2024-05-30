@@ -12,8 +12,8 @@ const Projects = () => {
         My <span className="text-yellow-400">Project</span>
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[90%] mx-auto">
-        <Link href="/projects/sophie">
-          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 hover:-rotate-6 cursor-pointer">
+        <Link href="/projects/Sophie">
+          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200  cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
                 src="/images/sophie.png"
@@ -23,7 +23,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[200px] xl:h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Sophie-Bluel
               </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="mt-[1rem] text-white text-[18px] font font-semibold">
-                <ul className="flex flex-wrap justify-center items-center gap-2">
+                <ul className="flex flex-wrap justify-center items-center  gap-2">
                   <li className="">HTML</li>
                   <li className="">CSS</li>
                   <li className="">JS</li>
@@ -48,8 +48,8 @@ const Projects = () => {
           </article>
         </Link>
 
-        <Link href="/projects/kasa">
-          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 cursor-pointer">
+        <Link href="/projects/Kasa">
+          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
                 src="/images/kasa.png"
@@ -59,7 +59,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[200px] xl:h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Kasa Immobilier
               </div>
@@ -85,8 +85,8 @@ const Projects = () => {
           </article>
         </Link>
 
-        <Link href="/projects/grimoire">
-          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-300 hover:rotate-6 cursor-pointer">
+        <Link href="/projects/Grimoire">
+          <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
                 src="/images/grimoire.png"
@@ -96,7 +96,7 @@ const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[308px]">
+            <div className="w-[100%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[2rem] h-[200px] xl:h-[308px]">
               <div className="w-fit px-[2rem] py-[1rem] bg-yellow-400 relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Mon Vieux Grimoire
               </div>
@@ -116,7 +116,6 @@ const Projects = () => {
                   <li className="">NodeJS</li>
                   <li className="">Express</li>
                   <li className="">MongoDB</li>
-                  <li className="">CRUD</li>
                 </ul>
               </div>
             </div>

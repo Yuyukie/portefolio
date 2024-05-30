@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import React from "react";
 import { saveAs } from "file-saver";
+import Image from "next/image";
 
 const About = () => {
   const handleDownloadImage = () => {
@@ -14,7 +15,7 @@ const About = () => {
       id="about"
       className="bg-[#141c27] pb-[3rem] pt-[4rem] md:pt-[8rem] flex  "
     >
-      <div className=" grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
+      <div className=" grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[100px] xl:gap-[16rem] items-center">
         <div className="flex flex-col items-center md:items-start ">
           <h1 className="text-[20px]  font-bold uppercase text-[#55e6a5] mb-[1rem]">
             ABOUT ME
@@ -24,12 +25,13 @@ const About = () => {
             start now.
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
-            <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-            <p className="text-[19px] text-slate-400 w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              voluptate at magni animi, aspernatur inventore natus soluta
-              explicabo, nisi veritatis dicta totam expedita corporis possimus
-              culpa quo architecto officiis nihil.
+            <span className="w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
+            <p className="text-[19px] text-slate-400 w-[100%] text-center">
+              Feet on the ground but head in the clouds. This is my vision of
+              the world and life today. Following a forced retraining, I opted
+              for a world that has fascinated me since my earliest childhood.
+              The digital world allows you to break limits and achieve great
+              things with little means
             </p>
           </div>
           <button
@@ -41,9 +43,9 @@ const About = () => {
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
           </button>
         </div>
-        <div className="lg:w-[300px]  mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[300px] w-[300px] h-[300px] relative bg-[#55e6a5]">
-          <div className="absolute w-[100%] h-[100%]  bg-black top-[2rem] right-[-2rem] text-white">
-            img
+        <div className="hidden md:block lg:w-[500px]  mx-auto md:mx-0  lg:mt-0 w-[400px] h-[300px] relative bg-[#55e6a5]">
+          <div className="absolute w-[100%] h-[100%]  top-[2rem] right-[2rem] text-white">
+            <Image src="/images/avatarmontagne.png" fill alt="" />
           </div>
         </div>
       </div>

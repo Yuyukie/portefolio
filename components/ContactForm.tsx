@@ -82,7 +82,7 @@ const ContactForm = () => {
         <input
           type="submit"
           value="Send"
-          className="bg-yellow-400 w-[25%] h-[40px] rounded-sm cursor-pointer"
+          className="bg-yellow-400 w-[25%] h-[40px] rounded-sm cursor-pointer hover:bg-[#55e6a5]"
         />
       </div>
     </form>

@@ -10,8 +10,8 @@ const Blog = () => {
         BL<span className="text-yellow-400">OG</span>
       </h2>
       <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto items-center ">
-        <div className="w-[90%] m-auto">
-          <div className="w-[100%] relative h-[250px]  bg-gray-400 rounded-3xl">
+        <div className="w-[90%] m-auto hover:scale-105 transform transition-all duration-200">
+          <div className="w-[100%] relative h-[200px] sm:h-[350px] xl:h-[300px] 2xl:h-[400px] md: bg-gray-400 rounded-3xl">
             <Link
               href="https://www.youtube.com/user/grafikarttv"
               target="_blank"
@@ -20,7 +20,7 @@ const Blog = () => {
               <Image src="/images/grafikart.png" alt="" fill />
             </Link>
           </div>
-          <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem] ">
+          <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">
             <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               Grafikart
             </div>
@@ -34,17 +34,22 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="w-[90%] m-auto">
-          <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
+        <div className="w-[90%] m-auto hover:scale-105 transform transition-all duration-200">
+          <div className="w-[100%] relative h-[200px] sm:h-[350px] xl:h-[300px] 2xl:h-[400px] bg-gray-400 rounded-3xl">
             <Link
               href="https://x.com/reactjs"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/images/react.png" alt="" fill className="p-8" />
+              <Image
+                src="/images/react.png"
+                alt=""
+                fill
+                className="object-containt p-8"
+              />
             </Link>
           </div>
-          <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem] ">
+          <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">
             <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               X Twitter React
             </div>
@@ -57,8 +62,8 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="w-[90%] m-auto">
-          <div className="w-[100%] relative h-[250px] bg-gray-400 rounded-3xl">
+        <div className="w-[90%] m-auto hover:scale-105 transform transition-all duration-200">
+          <div className="w-[100%] relative h-[200px] sm:h-[350px] xl:h-[300px] 2xl:h-[400px] bg-gray-400 rounded-3xl">
             <Link
               href="https://www.developpez.com/"
               target="_blank"
@@ -67,7 +72,7 @@ const Blog = () => {
               <Image src="/images/dvp.png" alt="" fill className="p-8" />
             </Link>
           </div>
-          <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem] ">
+          <div className="w-[90%] text-center mx-auto bg-[#09101a] rounded-xl relative p-[2rem] mt-[-1rem] ">
             <div className=" w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
               Devellopez
             </div>
