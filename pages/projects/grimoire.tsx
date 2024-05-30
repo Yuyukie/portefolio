@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import React, { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
 const Grimoire = () => {
   const [nav, setnav] = useState(false);
@@ -84,13 +85,7 @@ const Grimoire = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
-                  src="/images/giticon.png"
-                  alt="123"
-                  width={50}
-                  height={50}
-                  className="md:w-[80px] md:h-[80px]"
-                />
+                <FaGithub className="size-[80px] text-black" />
               </Link>
             </div>
             <div>

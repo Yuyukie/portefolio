@@ -71,9 +71,7 @@ const Sophie = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div>
-                  <FaGithub className=" size-[80px]" />
-                </div>
+                <FaGithub className="size-[80px ] text-black" />
               </Link>
             </div>
             <div>
