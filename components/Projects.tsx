@@ -12,7 +12,7 @@ const Projects = () => {
         My <span className="text-yellow-400">Project</span>
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[90%] mx-auto">
-        <Link href="/projects/Sophie">
+        <Link href="/projects/sophie">
           <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200  cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
@@ -48,7 +48,7 @@ const Projects = () => {
           </article>
         </Link>
 
-        <Link href="/projects/Kasa">
+        <Link href="/projects/kasa">
           <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image
@@ -85,7 +85,7 @@ const Projects = () => {
           </article>
         </Link>
 
-        <Link href="/projects/Grimoire">
+        <Link href="/projects/grimoire">
           <article className="border-2 border-gray-400 bg-gray-400 hover:scale-105 transform transition-all duration-200 cursor-pointer">
             <div className="flex flex-col h-[150px] items-center justify-center m-4">
               <Image

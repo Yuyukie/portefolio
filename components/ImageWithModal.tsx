@@ -40,7 +40,7 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
           <Image src={src} alt={alt} fill className="" />
         </div>
         <button
-          className="absolute right-2 top-[60px] text-yellow-400 text-[100px]"
+          className="absolute right-2 top-[100px] text-yellow-400 text-[100px]"
           onClick={closeModal}
         >
           &times;
