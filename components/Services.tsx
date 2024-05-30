@@ -17,7 +17,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
         <div>
           <div
-            className="bg-gray-400 hover:scale-110 transform transition-all duration-300 
+            className="bg-gray-400 hover:scale-105 transform transition-all duration-300 
                           hover:-rotate-6 uppercase font-semibold text-center p-[2rem] h-[100%]"
           >
             <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
         </div>
         <div
-          className="bg-yellow-400 hover:scale-110 transform transition-all duration-300 
+          className="bg-yellow-400 hover:scale-105 transform transition-all duration-300 
                      uppercase font-semibold text-center p-[2rem] h-[100%]"
         >
           <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
@@ -50,7 +50,7 @@ const Services = () => {
           </p>
         </div>
         <div
-          className="bg-green-400 hover:scale-110 transform transition-all duration-300 h-[100%]
+          className="bg-green-400 hover:scale-105 transform transition-all duration-300 h-[100%]
                           hover:rotate-6 uppercase font-semibold text-center p-[2rem]"
         >
           <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
