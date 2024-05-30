@@ -26,7 +26,7 @@ const ImgModal: React.FC<ImgModalProps> = ({ src, alt }) => {
           alt={alt}
           width={500}
           height={0}
-          className="object-fill cursor-pointer h-full"
+          className="object-contain cursor-pointer h-full"
           onClick={openModal}
         />
       </div>
