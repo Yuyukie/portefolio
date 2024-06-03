@@ -36,7 +36,7 @@ const ContactForm = () => {
         .then(
           () => {
             console.log("SUCCESS!");
-            // Clear the form fields and reset errors
+
             form.current?.reset();
             setErrors({ name: "", email: "", message: "" });
           },

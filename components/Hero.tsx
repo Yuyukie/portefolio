@@ -27,7 +27,7 @@ const Hero = () => {
         <div className=" flex items-center justify-center rounded-full m-auto">
           <Image
             src="/images/avatar.webp"
-            alt=""
+            alt="Image de profil Mazars Benjamin"
             width={250}
             height={250}
             className="  rounded-full"
