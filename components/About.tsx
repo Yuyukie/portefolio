@@ -43,7 +43,7 @@ const About = () => {
               >
                 <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
               </button>
-              <span className="absolute bottom-[110%] w-[100px] left-1/2 transform -translate-x-1/2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              <span className="absolute bottom-[110%] w-[35px] left-1/2 transform -translate-x-1/2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 CV
               </span>
             </div>

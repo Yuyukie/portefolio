@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import ImageWithModal from "@/components/ImageWithModal";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
-import Image from "next/image";
 import Link from "next/link";
 
 import React, { useState } from "react";
