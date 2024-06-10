@@ -75,7 +75,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block lg:w-[500px] mx-auto md:mx-0 lg:mt-0 w-[400px] h-[300px] relative bg-[#55e6a5]">
+        <div className="hidden md:block lg:w-[400px] mx-auto md:mx-0 lg:mt-0 w-[300px] h-[300px] relative bg-[#55e6a5]">
           <div className="absolute w-[100%] h-[100%] top-[2rem] right-[2rem] text-white">
             <Image
               src="/images/avatarmontagne.webp"
