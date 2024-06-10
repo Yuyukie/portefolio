@@ -24,13 +24,13 @@ const Hero = () => {
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 flex items-center sm:space-x-6"></div>
         </div>
-        <div className=" flex items-center justify-center rounded-full m-auto">
+        <div className=" flex items-center justify-center rounded-full mb-4 ">
           <Image
             src="/images/avatar.webp"
             alt="Image de profil Mazars Benjamin"
             width={250}
             height={250}
-            className="  rounded-full"
+            className="  rounded-full "
           />
         </div>
       </div>
