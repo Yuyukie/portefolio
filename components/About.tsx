@@ -62,7 +62,7 @@ const About = () => {
             </div>
             <div className="relative group">
               <a
-                href="https://www.linkedin.com/in/benjamin-mazars-21225b233/"
+                href="www.linkedin.com/in/benjamin-mazars-emploie-alternance-apprentissage-developpeur-toulouse-2024-cdi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-[50px] h-[50px] flex justify-center items-center bg-[#55e6a5] text-black font-bold uppercase rounded-full hover:bg-yellow-400 transition-all duration-200"
