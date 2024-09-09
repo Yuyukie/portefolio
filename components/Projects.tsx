@@ -9,7 +9,7 @@ const Projects = () => {
       className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[1rem]"
     >
       <h2 className="heading">
-        My <span className="text-yellow-400">Project</span>
+        Mes <span className="text-yellow-400">Projets</span>
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[90%] mx-auto">
         <Link href="/projects/sophie">
@@ -30,10 +30,10 @@ const Projects = () => {
               <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
                 <div className="flex items-center space-x-3">
                   <p className="text-xs md:text-sm text-wrap text-white">
-                    Creation of a dynamic web page with JavaScript. In this
-                    project, it is requested to create with HTML CSS AND JS a
-                    page that communicates with an API to retrieve the data it
-                    contains in order to display it to the user.
+                    Création de la page web dynamique de Sophie-Bluel avec
+                    JavaScript. Dans ce projet, il est demandé de créer une page
+                    avec HTML, CSS et JS qui communique avec une API pour
+                    récupérer les données afin de les afficher.
                   </p>
                 </div>
               </div>
@@ -66,10 +66,11 @@ const Projects = () => {
               <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
                 <div className="flex items-center space-x-3">
                   <p className="text-xs md:text-sm text-wrap text-white">
-                    Creation of a real estate rental web application with REACT.
-                    In this project, you are asked to create the entire frontend
-                    part of the site using REACT and REACT-ROUTER. You also have
-                    to manage all possible errors from one page to another
+                    Création du site web de location immobilière avec REACT.
+                    Dans ce projet, il est demandé de créer toute la partie
+                    front-end du site en utilisant REACT et REACT-ROUTER. Il est
+                    aussi demandé de gérer toutes les erreurs possibles lors du
+                    changement de pages.
                   </p>
                 </div>
               </div>
@@ -103,11 +104,12 @@ const Projects = () => {
               <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
                 <div className="flex items-center space-x-3">
                   <p className="text-xs md:text-sm text-wrap text-white">
-                    Creation of the backend of a book rating site. In this
-                    project, it is required to create the entire Backend part of
-                    the site using node.js express and MongoDB. You must create
-                    the server, the database and the entire CRUD part for
-                    managing books and ratings.
+                    Création du backend pour un site qui évalu des livres. Dans
+                    ce projet, il est demandé de créer toute la partie Backend
+                    du site en utilisant Node.js, Express et MongoDB. Il est
+                    aussi demandé de créer un serveur, la base de données et les
+                    opérations CRUD pour la gestion des livres et des
+                    évaluations.
                   </p>
                 </div>
               </div>

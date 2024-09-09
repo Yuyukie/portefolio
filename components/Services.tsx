@@ -25,11 +25,13 @@ const Services = () => {
               Frontend
             </h2>
             <p className="text-[15px] text-white font-normal">
-              I offer you my services as a Frontend developer. Meticulous and
-              rigorous in my work, I can integrate visual models while being
-              attentive to details, I can also set up basic functionalities such
-              as authentication but also more advanced such as exchanges with an
-              API via requests to give an example.
+              Je vous propose mes services en tant que développeur Frontend.
+              Méticuleux et rigoureux dans mon travail, je peux intégrer des
+              maquettes visuelles tout en étant attentif aux détails. Je suis
+              également capable de mettre en place des fonctionnalités de base
+              telles que le login, mais aussi des fonctionnalités plus avancées
+              comme les échanges avec une API via des requêtes, pour ne citer
+              que cet exemple.
             </p>
           </div>
         </div>
@@ -42,11 +44,12 @@ const Services = () => {
             Backend
           </h2>
           <p className="text-[15px] text-white font-normal">
-            I offer you my services as a Backend developer. Meticulous and
-            rigorous in my work, I can set up a server with Node.js and Express
-            and connect it to a database. I can also implement an authentication
-            system, data models as well as CRUD operations while ensuring data
-            security.
+            Je vous propose mes services en tant que développeur Backend.
+            Méticuleux et rigoureux dans mon travail, je peux configurer un
+            serveur avec Node.js et Express et le connecter à une base de
+            données. Je suis également capable de mettre en place un système de
+            login, des modèles de données ainsi que des opérations CRUD tout en
+            garantissant la sécurité des données.
           </p>
         </div>
         <div
@@ -58,10 +61,11 @@ const Services = () => {
             Fullstack
           </h2>
           <p className="text-[15px] text-white font-normal">
-            With my skills I can undertake projects and complete them in their
-            entirety. It is important for me to see the purpose of a project,
-            hence my great interest in becoming a meticulous and rigorous
-            full-stack developer.
+            Grâce à mes compétences, je suis en mesure de prendre en charge des
+            projets et de les mener à terme dans leur totalité. Il est essentiel
+            pour moi de comprendre pleinement les objectif du projet, ce qui
+            nourrit mon fort désir de devenir un développeur full-stack à la
+            fois méticuleux et rigoureux.
           </p>
         </div>
       </div>

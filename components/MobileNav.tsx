@@ -16,16 +16,16 @@ const MobileNav = ({ nav, closeNav }: Props) => {
     >
       <div className="w-[100vw] h-[100vh] flex flex-col md:hidden items-center justify-center">
         <div className="nav-link-mobile" onClick={closeNav}>
-          <Link href="/#home">Home</Link>
+          <Link href="/#home">Acceuil</Link>
         </div>
         <div className="nav-link-mobile" onClick={closeNav}>
           <Link href="/#services">Services</Link>
         </div>
         <div className="nav-link-mobile" onClick={closeNav}>
-          <Link href="/#about">About</Link>
+          <Link href="/#about">À propos</Link>
         </div>
         <div className="nav-link-mobile" onClick={closeNav}>
-          <Link href="/#projects">Projects</Link>
+          <Link href="/#projects">Projets</Link>
         </div>
         <div className="nav-link-mobile" onClick={closeNav}>
           <Link href="/#blog">Blog</Link>

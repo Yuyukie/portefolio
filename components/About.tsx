@@ -19,20 +19,20 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[100px] xl:gap-[16rem] items-center">
         <div className="flex flex-col items-center md:items-start">
           <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] mb-[1rem]">
-            ABOUT ME
+            À propos de moi
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            A New World without <span className="text-yellow-400">limit</span>{" "}
-            start now.
+            Un nouveau monde sans aucune{" "}
+            <span className="text-yellow-400">limite</span> commence maintenant
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-400 w-[100%] text-center">
-              Feet on the ground but head in the clouds. This is my vision of
-              the world and life today. Following a forced retraining, I opted
-              for a world that has fascinated me since my earliest childhood.
-              The digital world which allows you to break boundaries and
-              accomplish great things with few resources.
+              Les pieds sur terre, mais la tête dans les nuages. C’est ma vision
+              du monde et de la vie aujourd’hui. Après une reconversion forcée,
+              j’ai choisi de m’orienter vers un univers qui me passionne depuis
+              mon plus jeune âge : le monde numérique, qui permet de repousser
+              les limites et d’accomplir de grandes choses avec peu de moyens.
             </p>
           </div>
           <div className="flex justify-center gap-4 w-[100%]">

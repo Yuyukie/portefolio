@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#141c27]">
       <h2 className="heading">
-        Education & <span className="text-yellow-400">Skills</span>
+        Formation & <span className="text-yellow-400">compétences</span>
       </h2>
       <div className="w-[90%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>

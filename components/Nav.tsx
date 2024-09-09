@@ -15,16 +15,16 @@ const Nav = ({ openNav }: Props) => {
           <span className="text-yellow-300">DEV</span>
         </h2>
         <div className="nav-link">
-          <Link href="/#home">Home</Link>
+          <Link href="/#home">Acceuil</Link>
         </div>
         <div className="nav-link">
           <Link href="/#services">Services</Link>
         </div>
         <div className="nav-link">
-          <Link href="/#about">About</Link>
+          <Link href="/#about">À propos</Link>
         </div>
         <div className="nav-link">
-          <Link href="/#projects">Projects</Link>
+          <Link href="/#projects">Projets</Link>
         </div>
         <div className="nav-link">
           <Link href="/#blog">Blog</Link>

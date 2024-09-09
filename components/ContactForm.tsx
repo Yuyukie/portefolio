@@ -54,7 +54,7 @@ const ContactForm = () => {
       className="flex flex-col gap-[1.5rem]"
     >
       <label className="text-[25px] mb-[0.2rem] font-semibold text-white">
-        Name
+        Nom
       </label>
       <input
         type="text"

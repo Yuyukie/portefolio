@@ -30,10 +30,10 @@ const Blog = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 md:h-[180px]">
               <p className="text-xs md:text-sm text-wrap text-white ">
-                For me, he is one of the most educational content creators on
-                the web. His content is regularly updated which allows us to
-                stay abreast of technological developments while learning how to
-                use them.
+                Pour moi, il fait partie des créateurs de contenu les plus
+                pédagogue sur le web. Ses contenus sont régulièrement mis à
+                jour, ce qui nous permet de rester informés des évolutions
+                technologiques tout en apprenant à les utiliser.
               </p>
             </div>
           </div>
@@ -59,9 +59,10 @@ const Blog = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 md:h-[180px] ">
               <p className="text-xs md:text-sm text-wrap text-white">
-                This is my main technology for the frontend. Its functioning and
-                structure fascinate me. it is important for me to stay informed
-                about its evolution thanks to its reference social network
+                React est ma technologie principale pour le front-end. Son
+                fonctionnement et sa structure me fascinent. Il est important
+                pour moi de rester informé de son évolution grâce à son réseau
+                social de référence.
               </p>
             </div>
           </div>
@@ -87,9 +88,10 @@ const Blog = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4 md:h-[180px]">
               <p className="text-xs md:text-sm text-wrap text-white">
-                One of the sites offering a vast quantity of information,
-                articles, reviews and books concerning the world of the web and
-                its derivatives. This allows you to discover new possibilities
+                Un des sites offrant une grande quantité avec des ressources,
+                des articles, des critiques et des livres concernant le monde du
+                web et ses dérivés. Cela permet de découvrir de nouvelles
+                possibilités.
               </p>
             </div>
           </div>
